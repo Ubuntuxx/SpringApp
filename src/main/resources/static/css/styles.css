@@ -1,0 +1,10 @@
+h1 {
+    display: flex;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+}

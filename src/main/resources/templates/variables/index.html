@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title th:text="${titulo}"></title>
+  <link rel="stylesheet" th:href="@{/css/styles.css}">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <h1 th:text="${titulo}"></h1>
+  <ul>
+    <li><a th:href="@{/variables/string/}+'Hola luis'">Hola luis</a></li>
+    <li><a th:href="@{/variables/string/}+'Saludos luis'">Saludos luis</a></li>
+    <li><a th:href="@{/variables/string/}+'Hola luis' + '/'+'7'">holaasdfasdf luis , 7</a></li>
+    <li><img th:src="@{/images/imagge.jpg}" alt=""></li>
+  </ul>
+</body>
+
+</html>
